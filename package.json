@@ -1,7 +1,7 @@
 {
   "name": "faisons_vivre_marseille_website",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "faisons_vivre_marseille_website",
   "author": "Valentin Nasraty",
   "keywords": [
