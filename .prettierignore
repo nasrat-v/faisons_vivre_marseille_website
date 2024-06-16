@@ -5,3 +5,4 @@ coverage/
 .cache/
 node_modules/
 tsconfig.json
+public/
