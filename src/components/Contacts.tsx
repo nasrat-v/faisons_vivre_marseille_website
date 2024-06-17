@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Contacts() {
     return (
-        <div className="flex-column">
+        <div className="flex-column pb-24">
             <div className="flex py-24">
                 <h2 className="font-[1000] text-4xl text-my-orange">Nous suivre</h2>
             </div>
