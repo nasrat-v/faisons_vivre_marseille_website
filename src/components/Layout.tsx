@@ -14,8 +14,8 @@ export default function LayoutLayout() {
             <div className="flex-column px-24">
                 <Candidates />
                 <Propositions />
+                <Contacts />
             </div>
-            <Contacts />
             <Footer />
         </div>
     )

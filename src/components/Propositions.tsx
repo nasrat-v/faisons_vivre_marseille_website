@@ -7,7 +7,7 @@ export default function Propositions() {
             <div className="pt-24">
                 <StaticImage 
                     src="../images/program-1.png" 
-                    alt="hugo"
+                    alt="program-1"
                     imgStyle={{
                         border: "solid",
                         borderColor: "#eF5104"
@@ -17,7 +17,7 @@ export default function Propositions() {
             <div className="pt-12">
                 <StaticImage 
                     src="../images/program-2.png" 
-                    alt="hugo"
+                    alt="program-2"
                     imgStyle={{
                         border: "solid",
                         borderColor: "#eF5104"
