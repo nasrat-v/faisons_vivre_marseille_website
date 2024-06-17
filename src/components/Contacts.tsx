@@ -8,13 +8,13 @@ export default function Contacts() {
                 <h2 className="font-[1000] text-4xl text-my-orange">Nous suivre</h2>
             </div>
             <div className="flex justify-between gap-32">
-                <a href="http://www.google.com" target="_blank">
+                <a href="https://www.instagram.com/faisonsvivremarseille?igsh=MWY3ZmJ3ZW41cGYwNg==" target="_blank">
                     <StaticImage 
                         src="../images/instagram.png" 
                         alt="instagram"
                     />
                 </a>
-                <a href="http://www.google.com" target="_blank">
+                <a href="https://www.linkedin.com/in/hugo-roche-poggi-a89178a2" target="_blank">
                     <StaticImage 
                         src="../images/linkedin.png" 
                         alt="linkedin" 
@@ -26,7 +26,7 @@ export default function Contacts() {
                         alt="facebook" 
                     />
                 </a>
-                <a href="http://www.google.com" target="_blank">
+                <a href="https://twitter.com/rochepoggi" target="_blank">
                     <StaticImage 
                         src="../images/twitter.png" 
                         alt="twitter" 
