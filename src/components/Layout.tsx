@@ -11,8 +11,10 @@ export default function LayoutLayout() {
         <div>
             <Navbar />
             <Introduction />
-            <Candidates />
-            <Propositions />
+            <div className="flex-column px-24">
+                <Candidates />
+                <Propositions />
+            </div>
             <Contacts />
             <Footer />
         </div>
