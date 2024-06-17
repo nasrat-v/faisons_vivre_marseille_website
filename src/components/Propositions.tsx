@@ -1,9 +1,29 @@
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
 export default function Propositions() {
     return (
-        <div>
-            Propositions
+        <div className="flex-column">
+            <div className="pt-24">
+                <StaticImage 
+                    src="../images/program-1.png" 
+                    alt="hugo"
+                    imgStyle={{
+                        border: "solid",
+                        borderColor: "#eF5104"
+                    }}
+                />
+            </div>
+            <div className="pt-12">
+                <StaticImage 
+                    src="../images/program-2.png" 
+                    alt="hugo"
+                    imgStyle={{
+                        border: "solid",
+                        borderColor: "#eF5104"
+                    }}
+                />
+            </div>
         </div>
     )
 }
