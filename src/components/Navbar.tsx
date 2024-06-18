@@ -12,7 +12,7 @@ export default function Navbar(props: { noLinks?: boolean}) {
                 <div className="flex py-12 md:px-24 px-12 justify-between bg-my-orange text-white items-center">
                     <div className="flex text-balance pr-12">
                         <Link to="/">
-                            <h1 className="font-futura-bold sm:text-3xl md:text-4xl text-2xl">Faisons vivre Marseille !</h1>
+                            <h1 className="font-futura-cond-extrabold sm:text-3xl md:text-4xl text-2xl">FAISONS VIVRE MARSEILLE !</h1>
                         </Link>
                     </div>
                     {!props.noLinks ? (
