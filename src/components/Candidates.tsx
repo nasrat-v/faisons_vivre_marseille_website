@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Candidates() {
     return (
-        <div className="flex-column pb-32" id="candidates">
-            <div className="flex pb-24">
+        <div className="flex-column pb-24 pt-8" id="candidates">
+            <div className="flex md:pb-24 pb-16">
                 <h2 className="font-futura-bold text-5xl text-my-orange">Les candidats</h2>
             </div>
             <div className="flex-column">
@@ -31,7 +31,7 @@ export default function Candidates() {
                         </span>
                     </div>
                 </div>
-                <div className="flex gap-12 pt-28 justify-end md:flex-nowrap flex-wrap">
+                <div className="flex gap-12 pt-24 justify-end md:flex-nowrap flex-wrap">
                     <div className="flex-column pt-4">
                         <div className="pb-8">
                             <h3 className="font-futura-bold italic text-6xl text-my-orange">MANON PÉREZ LEGRÉ</h3>

@@ -4,7 +4,7 @@ import React from "react";
 export default function Contacts() {
     return (
         <div className="flex-column pb-24" id="contacts">
-            <div className="flex py-24">
+            <div className="flex pt-24 md:pb-24 pb-16">
                 <h2 className="font-futura-bold text-5xl text-my-orange">Nous suivre</h2>
             </div>
             <div className="flex justify-between gap-4 sm:gap-12 md:gap-24 lg:gap-32 xl:gap-48">
