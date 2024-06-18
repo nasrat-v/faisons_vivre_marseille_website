@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="flex p-24 text-xl bg-my-orange justify-center">
             <span className="font-futura-book text-center text-white text-2xl">
                 Copyright Faisons vivre Marseille ! ©
-                <br/>Tous droits réservés - <Link to="/">Mentions légales</Link>
+                <br/>Tous droits réservés - <Link to="/" className="underline">Mentions légales</Link>
             </span>
         </div>
     )
