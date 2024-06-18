@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Propositions() {
     return (
-        <div className="flex-column" id="propositions">
-            <div className="pt-24">
+        <div className="flex-column pt-24" id="propositions">
+            <div className="pt-23">
                 <StaticImage 
                     src="../images/program-1.png" 
                     alt="program-1"

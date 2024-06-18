@@ -3,17 +3,17 @@ import React from "react";
 
 export default function Candidates() {
     return (
-        <div className="flex-column" id="candidates">
+        <div className="flex-column pb-32" id="candidates">
             <div className="flex pb-24">
                 <h2 className="font-futura-bold text-5xl text-my-orange">Les candidats</h2>
             </div>
             <div className="flex-column">
-                <div className="flex gap-12 justify-start">
+                <div className="flex gap-12 justify-start md:flex-nowrap flex-wrap-reverse">
                     <StaticImage 
                         src="../images/hugo.png" 
                         alt="hugo" 
-                        width={1600}
-                        height={1600}
+                        width={1200}
+                        height={1200}
                         imgStyle={{
                             border: "solid",
                             borderColor: "#eF5104"
@@ -31,7 +31,7 @@ export default function Candidates() {
                         </span>
                     </div>
                 </div>
-                <div className="flex gap-12 pt-28 justify-end">
+                <div className="flex gap-12 pt-28 justify-end md:flex-nowrap flex-wrap">
                     <div className="flex-column pt-4">
                         <div className="pb-8">
                             <h3 className="font-futura-bold italic text-6xl text-my-orange">MANON PÉREZ LEGRÉ</h3>
@@ -45,8 +45,8 @@ export default function Candidates() {
                     <StaticImage 
                         src="../images/manon.png" 
                         alt="hugo" 
-                        width={1600}
-                        height={1600}
+                        width={1200}
+                        height={1200}
                         imgStyle={{
                             border: "solid",
                             borderColor: "#eF5104"
