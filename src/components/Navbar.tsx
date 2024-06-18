@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <header>
             <nav>
-                <div className="flex py-12 px-24 justify-between bg-my-orange text-white items-center">
+                <div className="flex py-12 md:px-24 px-12 justify-between bg-my-orange text-white items-center">
                     <div className="flex text-balance pr-12">
                         <Link to="/">
                             <h1 className="font-futura-bold sm:text-3xl md:text-4xl text-2xl">Faisons vivre Marseille !</h1>
