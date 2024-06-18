@@ -21,7 +21,7 @@ export default function Candidates() {
                     />
                     <div className="flex-column pt-4">
                         <div className="pb-8">
-                            <h3 className="font-futura-bold italic text-6xl text-my-orange">HUGO ROCHE POGGI</h3>
+                            <h3 className="font-futura-bold italic text-4xl sm:text-5xl md:text-6xl text-my-orange">HUGO ROCHE POGGI</h3>
                         </div>
                         <span className="font-futura-book text-2xl">
                             Hugo Roche Poggi est né dans le 8eme arrondissement et vit dans le 7eme.
@@ -34,7 +34,7 @@ export default function Candidates() {
                 <div className="flex gap-12 pt-24 justify-end md:flex-nowrap flex-wrap">
                     <div className="flex-column pt-4">
                         <div className="pb-8">
-                            <h3 className="font-futura-bold italic text-6xl text-my-orange">MANON PÉREZ LEGRÉ</h3>
+                            <h3 className="font-futura-bold italic text-4xl sm:text-5xl md:text-6xl text-my-orange">MANON PÉREZ LEGRÉ</h3>
                         </div>
                         <span className="font-futura-book text-2xl">
                             Manon Pérez Legré est originaire du 7eme arrondissement. 

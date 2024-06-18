@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
                     Directeur de la publication:
                 </h3>
                 <span className="font-futura-book text-black text-xl">
-                    Ce site est édité par Hugo Roche Poggi
+                    Hugo Roche Poggi
                 </span>
                 <h3 className="font-futura-bold text-my-orange text-2xl pt-8">
                     Hébergement:

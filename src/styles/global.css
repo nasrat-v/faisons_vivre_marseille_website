@@ -11,3 +11,8 @@
   font-family: "Futura Cyrillic Bold";
   src: url("../../static/fonts/futura/FuturaPT-Bold.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: "Futura Condensed Extra Bold";
+  src: url("../../static/fonts/futura/FuturaPTCond-ExtraBold.woff2") format("woff2");
+}
