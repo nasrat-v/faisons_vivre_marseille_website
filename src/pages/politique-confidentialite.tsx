@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function PrivacyPolicy() {
     return (
-        <div>
+        <div className="flex-column">
             <Navbar noLinks={true}/>
             <div className="flex-column md:px-24 px-12 py-24">
                 <h2 className="font-futura-bold text-my-orange text-4xl">
