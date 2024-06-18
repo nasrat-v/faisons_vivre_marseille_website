@@ -24,7 +24,7 @@ export default function Candidates() {
                             <h3 className="font-futura-bold italic text-6xl text-my-orange">HUGO ROCHE POGGI</h3>
                         </div>
                         <span className="font-futura-book text-2xl">
-                            Hugo Roche Poggi est né dans le 8eme arrondissement et vit dans le 7eme. 
+                            Hugo Roche Poggi est né dans le 8eme arrondissement et vit dans le 7eme.
                             Après ses études, il travaille à l'Assemblée nationale, au cabinet du ministre de la Culture, et dans le milieu de l'art. 
                             En pleine crise du Covid, il sent le besoin de s'engager pour sa ville. Il crée alors une association culturelle pour soutenir les artistes marseillais et leur public : Pour Que Marseille Vive !
                             <br />Au moment de la dissolution, il décide de s'engager pour sa circonscription. 
