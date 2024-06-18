@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+import scrollTo from "gatsby-plugin-smoothscroll";
 import React from "react";
 
 export default function Navbar() {
@@ -9,9 +9,9 @@ export default function Navbar() {
                     <h1 className="font-[1000] text-4xl">Faisons vivre Marseille !</h1>
                 </div>
                 <div className="flex justify-evenly gap-12 items-end font-bold italic text-2xl">
-                    <Link to="/">Les candidats</Link>
-                    <Link to="/">Nos propositions</Link>
-                    <Link to="/">Nous suivre</Link>
+                    <button onClick={() => scrollTo("#candidates")}>Les candidats</button>
+                    <button onClick={() => scrollTo("#propositions")}>Nos propositions</button>
+                    <button onClick={() => scrollTo("#contacts")}>Nous suivre</button>
                 </div>
             </div>
         </nav>
