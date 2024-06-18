@@ -44,7 +44,7 @@ export default function PrivacyPolicy() {
                 <span className="font-futura-book text-black text-xl">
                     Les informations que vous nous communiquez sont uniquement utilisées dans le cadre de l'envoi de la newsletter ou pour vous permettre de laisser des commentaires sur ce blog.
                     <br />En application des articles 38 et suivants de la loi du 6 janvier 1978, vous bénéficiez des droits d'accès, de rectification, de suppression et d'opposition aux informations vous concernant. 
-                    <br />Vous pouvez exercer ces droits en nous écrivant à l'adresse unionpopulaire9402@gmail.com
+                    <br />Vous pouvez exercer ces droits en nous écrivant à l'adresse contact@faisonsvivremarseille.com
                 </span>
             </div>
             <Footer />
