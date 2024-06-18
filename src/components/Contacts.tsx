@@ -5,7 +5,7 @@ export default function Contacts() {
     return (
         <div className="flex-column pb-24" id="contacts">
             <div className="flex py-24">
-                <h2 className="font-[1000] text-4xl text-my-orange">Nous suivre</h2>
+                <h2 className="font-futura-bold text-5xl text-my-orange">Nous suivre</h2>
             </div>
             <div className="flex justify-between gap-32">
                 <a href="https://www.instagram.com/faisonsvivremarseille?igsh=MWY3ZmJ3ZW41cGYwNg==" target="_blank">
