@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Candidates() {
     return (
-        <div className="flex-column">
+        <div className="flex-column" id="candidates">
             <div className="flex pb-24">
                 <h2 className="font-[1000] text-4xl text-my-orange">Les candidats</h2>
             </div>
