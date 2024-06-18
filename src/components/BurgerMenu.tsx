@@ -2,17 +2,18 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import { useState } from "react";
 import scrollTo from "gatsby-plugin-smoothscroll";
+import { Link } from "gatsby";
 
 export default function BurgerMenu() {
-  const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
     <div className="flex items-center justify-between py-8">
       <nav>
-        <section className="MOBILE-MENU flex lg:hidden">
+        <section className="flex lg:hidden">
           <div
-            className="HAMBURGER-ICON space-y-2"
-            onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
+            className="space-y-2"
+            onClick={() => setIsNavOpen((prev) => !prev)}
           >
             <StaticImage
                 src="../images/burger-menu.svg"
@@ -24,8 +25,8 @@ export default function BurgerMenu() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
-              onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
+              className="absolute top-0 right-0 px-8 py-8"
+              onClick={() => setIsNavOpen(false)}
             >
               <StaticImage
                 src="../images/cross.svg"
@@ -34,37 +35,42 @@ export default function BurgerMenu() {
                 layout="fixed"
               />
             </div>
-            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
+            <Link to="/" onClick={() => setIsNavOpen(false)}>
+              <StaticImage
+                src="../images/logo-white.png"
+                alt="cross"
+                width={200}
+                layout="fixed"
+              />
+            </Link>
+            <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="text-2xl my-8">
-                <button onClick={() => scrollTo("#candidates")}>
+                <button onClick={() => {
+                    setIsNavOpen(false);
+                    scrollTo("#candidates"); 
+                }}>
                     <h2 className="font-futura-bold italic">Les candidats</h2>
                 </button>
               </li>
               <li className="text-2xl my-8">
-                <button onClick={() => scrollTo("#propositions")}>
+                <button onClick={() => {
+                    setIsNavOpen(false);
+                    scrollTo("#propositions");
+                }}>
                     <h2 className="font-futura-bold italic">Nos propositions</h2>
                 </button>
               </li>
               <li className="text-2xl my-8">
-                <button onClick={() => scrollTo("#contacts")}>
+                <button onClick={() => {
+                    setIsNavOpen(false);
+                    scrollTo("#contacts");
+                }}>
                     <h2 className="font-futura-bold italic">Nous suivre</h2>
                 </button>
               </li>
             </ul>
           </div>
         </section>
-
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
       </nav>
       <style>{`
       .hideMenuNav {
