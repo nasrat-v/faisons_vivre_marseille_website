@@ -5,7 +5,7 @@ export default function Introduction() {
     return (
         <div className="flex-column">
             <StaticImage src="../images/banner.png" alt="intro banner" />
-            <div className="flex-column px-32 py-24 text-center font-futura-book text-2xl">
+            <div className="flex-column md:px-24 px-12 py-24 text-center font-futura-book text-2xl">
                 <span>
                     Madame, Monsieur,
                 <br />
