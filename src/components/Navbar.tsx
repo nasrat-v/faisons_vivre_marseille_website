@@ -5,7 +5,7 @@ import React from "react";
 import BurgerMenu from "./BurgerMenu";
 
 
-export default function Navbar() {
+export default function Navbar(props: { noLinks?: boolean}) {
     return (
         <header>
             <nav>
@@ -15,20 +15,25 @@ export default function Navbar() {
                             <h1 className="font-futura-bold sm:text-3xl md:text-4xl text-2xl">Faisons vivre Marseille !</h1>
                         </Link>
                     </div>
-                    <div className="md:flex justify-evenly gap-12 items-end text-2xl hidden">
-                        <button onClick={() => scrollTo("#candidates")}>
-                            <h2 className="font-futura-bold italic">Les candidats</h2>
-                        </button>
-                        <button onClick={() => scrollTo("#propositions")}>
-                            <h2 className="font-futura-bold italic">Nos propositions</h2>
-                        </button>
-                        <button onClick={() => scrollTo("#contacts")}>
-                            <h2 className="font-futura-bold italic">Nous suivre</h2>
-                        </button>
-                    </div>
-                    <div className="md:hidden">
-                        <BurgerMenu />
-                    </div>
+                    {!props.noLinks ? (
+                        <div>
+                            <div className="md:flex justify-evenly gap-12 items-end text-2xl hidden">
+                                <button onClick={() => scrollTo("#candidates")}>
+                                    <h2 className="font-futura-bold italic">Les candidats</h2>
+                                </button>
+                                <button onClick={() => scrollTo("#propositions")}>
+                                    <h2 className="font-futura-bold italic">Nos propositions</h2>
+                                </button>
+                                <button onClick={() => scrollTo("#contacts")}>
+                                    <h2 className="font-futura-bold italic">Nous suivre</h2>
+                                </button>
+                            </div>
+                            <div className="md:hidden">
+                                <BurgerMenu />
+                            </div>
+                        </div>
+                        ) : null
+                    }
                 </div>
             </nav>
             
