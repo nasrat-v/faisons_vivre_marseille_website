@@ -1,7 +1,7 @@
 {
   "name": "faisons_vivre_marseille_website",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "faisons_vivre_marseille_website",
   "author": "Valentin Nasraty",
   "keywords": [
@@ -21,6 +21,7 @@
     "gatsby-plugin-image": "3.13.1",
     "gatsby-plugin-postcss": "6.13.1",
     "gatsby-plugin-sharp": "5.13.1",
+    "gatsby-plugin-smoothscroll": "1.2.0",
     "gatsby-source-filesystem": "5.13.1",
     "gatsby-transformer-sharp": "5.13.1",
     "postcss": "8.4.38",

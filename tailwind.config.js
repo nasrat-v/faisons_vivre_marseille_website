@@ -5,7 +5,15 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'my-orange': '#eF5104',
+      },
+    },
+    fontFamily: {
+      'futura-book': ['Futura Cyrillic Book'],
+      'futura-bold': ['Futura Cyrillic Bold'],
+    }
   },
   plugins: [],
 }
