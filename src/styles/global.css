@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    font-family: "Futura";
-  }
+@font-face {
+  font-family: "Futura Cyrillic Book";
+  src: url("../../static/fonts/futura/FuturaCyrillicBook.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura Cyrillic Bold";
+  src: url("../../static/fonts/futura/FuturaCyrillicBold.ttf") format("truetype");
 }
