@@ -13,6 +13,7 @@ module.exports = {
     fontFamily: {
       'futura-book': ['Futura Cyrillic Book'],
       'futura-bold': ['Futura Cyrillic Bold'],
+      'futura-cond-extrabold': ['Futura Condensed Extra Bold'],
     }
   },
   plugins: [],
